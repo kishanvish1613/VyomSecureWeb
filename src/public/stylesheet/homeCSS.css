@@ -29,7 +29,7 @@ a {
     width: 100%;
     height: 100vh;
     background-image: url('../img/vyomSecure-without-logo.png');
-    background-size: 104%;
+    background-size: cover;
     object-position: center;
     object-fit: fill;
     background-repeat: no-repeat;
