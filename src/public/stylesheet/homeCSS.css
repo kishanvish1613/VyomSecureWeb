@@ -136,9 +136,6 @@ a {
     backdrop-filter: blur(1px) saturate(180%);
     -webkit-backdrop-filter: blur(1px) saturate(180%);
     background-color: rgba(17, 25, 40, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    color: white;
-    font-size: 2rem;
 }
 
 .maintenance-img-section {
@@ -148,4 +145,12 @@ a {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.maintenance-text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
 }
