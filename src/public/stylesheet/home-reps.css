@@ -1,0 +1,88 @@
+@media (max-width: 320px) {
+    #hero-main-container {
+        width: 100%;
+    }
+
+    #hero-main-nav-bar-container {
+        padding: 5px;
+    }
+
+    #hero-nav-bar-left-container {
+        width: 20%;
+    }
+
+    #hero-nav-bar-right-container {
+        width: 80%;
+        gap: 10px;
+        padding-right: 0px;
+    }
+
+    #hero-main-circle-img-heading-btn-container {
+        height: 90vh;
+    }
+
+    #half-img {
+        top: 170%;
+        right: 10%;
+    }
+
+    #welcome-heading {
+        font-size: 1.3rem;
+    }
+
+    #trusted-para {
+        font-size: 1.1rem;
+    }
+
+    #hero-para-text-container {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    #para-text {
+        font-size: 0.8rem;
+    }
+
+    #hero-para-bottom-btn {
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* about */
+
+    #about-absolute-main-container {
+        overflow: hidden;
+    }
+
+    #about-main-absolute-top-boxs-container {
+        height: max-content;   
+        align-items: center;   
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .about-content-section {
+        width: 100%;
+        height: 30vh;
+        gap: 10px;
+    }
+
+    .about-content-img-section {
+        height: 6vh;
+    }
+
+    .about-content-heading-section {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .about-content-para-section {
+        font-size: 0.8rem;
+    }
+
+    #about-main-bottom-left-content-container{
+        border: 1px solid rgb(136, 0, 255);
+    }
+
+}

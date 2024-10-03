@@ -1,6 +1,6 @@
 function faqFunction() {
     // Select all faq heading section elements
-    const faqHeadingBoxes = document.querySelectorAll('.faq-heading-section');
+    const faqHeadingBoxes = document.querySelectorAll('.sam-faq-heading-section');
 
     // Loop through each heading section
     faqHeadingBoxes.forEach(faqHeadingBox => {
@@ -10,7 +10,7 @@ function faqFunction() {
             dropDownBox.classList.toggle('rotate-icon-style-js');
 
             // Find the corresponding hidden section for this heading
-            const hiddenFaqSection = faqHeadingBox.querySelector('.hidden-faq-section');
+            const hiddenFaqSection = faqHeadingBox.querySelector('.sam-hidden-faq-section');
 
             // Toggle the height of the hidden section
             if (hiddenFaqSection.style.maxHeight) {
