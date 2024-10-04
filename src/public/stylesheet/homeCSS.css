@@ -14,7 +14,7 @@ html,body{
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #container {
@@ -76,7 +76,11 @@ a {
 #hero-nav-bar-left-container {
     width: 10%;
     height: 7vh;
-    border: 1px solid red;
+    /* background-image: url('../img/home-page-hero-section-imgs/Vyam-logo.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    /* border: 1px solid red; */
 }
 
 #hero-nav-bar-right-container {
@@ -118,7 +122,7 @@ a {
     width: 20%;
     height: 6vh;
     position: absolute;
-    top: 55%;
+    top: 400%;
     right: 0%;
     background-image: url('../img/home-page-hero-section-imgs/half-circle-hero-Ellipse.png');
     background-position: center;
@@ -161,20 +165,18 @@ a {
     font-size: 0.9rem;
 }
 
-#hero-para-bottom-btn {
-    width: max-content;
-    height: max-content;
-    padding: 12px;
-    padding-left: 45px;
-    padding-right: 45px;
-    cursor: pointer;
-    color: white;
-    background-color: #1b71ff;
+#hero-logo-top-container {
+    width: 30%;
+    height: 20vh;
+    background-image: url('../img/home-page-hero-section-imgs/Vyam-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #about-main-container {
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background-image: url('../img/home-page-hero-section-imgs/centre-hero-Ellipse.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -186,7 +188,7 @@ a {
     top: 0%;
     left: 0%;
     width: 50%;
-    height: 120vh;
+    height: 100vh;
     background-image: url('../img/home-page-hero-section-imgs/left-hero-Ellipse.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -198,7 +200,7 @@ a {
     top: 0%;
     right: 0%;
     width: 50%;
-    height: 120vh;
+    height: 100vh;
     background-image: url('../img/home-page-hero-section-imgs/right-hero-Ellipse.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -210,79 +212,13 @@ a {
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 120vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#about-absolute-main-top-container {
-    width: 85%;
-    height: 50vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.about-main-top-three-box-container {
-    width: 30%;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    background: #ffffff;
-    box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
-    z-index: 999;
-    border-radius: 8px;
-}
-
-.about-main-top-three-box-container-img-section {
-    width: 30%;
-    height: 10vh;
-}
-
-.about-main-top-three-box-container-heading-section {
-    width: 90%;
-    height: max-content;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#about-main-top-three-box-container-img-section-id-one {
-    background-image: url('../img/home-page-hero-section-imgs/about-key-quality-service.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
-#about-main-top-three-box-container-img-section-id-two {
-    background-image: url('../img/home-page-hero-section-imgs/about-security-img.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#about-main-top-three-box-container-img-section-id-three {
-    background-image: url('../img/home-page-hero-section-imgs/about-file-img.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.about-main-top-three-box-container-heading-section p {
-    font-size: 1.2rem;
-    color: #1b71ff;
-}
-
-.about-main-top-three-box-container-para-section {
-    width: 90%;
-    height: max-content;
-    /* border: 1px solid black; */
-}
 
 
 #about-absolute-main-bottom-container {
@@ -315,18 +251,6 @@ a {
     width: 90%;
 }
 
-#about-absolute-main-bottom-container-left-section-btn-section {
-    width: max-content;
-    height: max-content;
-    padding: 12px;
-    padding-left: 45px;
-    padding-right: 45px;
-    cursor: pointer;
-    color: white;
-    background-color: #1b71ff;
-}
-
-
 #about-absolute-main-bottom-container-right-section {
     width: 45%;
     height: 70vh;
@@ -347,7 +271,7 @@ a {
 /* our service */
 #service-main-container {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image: url('../img/home-page-hero-section-imgs/centre-our-service-Ellipse.png');
     background-position: center;
     background-size: contain;
@@ -356,7 +280,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     overflow: hidden;
 }
 
@@ -364,7 +288,6 @@ a {
     width: 85%;
     height: max-content;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -376,15 +299,9 @@ a {
     gap: 10px;
 }
 
-#service-With-quality-services-for-you-para {
-    width: 80%;
-    height: max-content;
-    font-size: 0.8rem;
-}
-
 #service-multiple-boxs-container {
     width: 100%;
-    height: 85vh;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -392,15 +309,15 @@ a {
 }
 
 #service-multiple-box-top-container {
-    width: 75%;
+    width: 90%;
     height: 40vh;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
 }
 
 .service-multi-box-top-container {
-    width: 30%;
+    width: 25%;
     height: 38vh;
     display: flex;
     justify-content: center;
@@ -445,15 +362,6 @@ a {
     background-repeat: no-repeat;
 }
 
-#service-multiple-box-bottom-container {
-    width: 75%;
-    height: 40vh;
-    display: flex;
-    align-items: last baseline;
-    justify-content: flex-end;
-    gap: 40px;
-}
-
 #service-multi-box-img-3 {
     background-image: url('../img/home-page-hero-section-imgs/service-server-img.png');
     background-position: center;
@@ -477,6 +385,7 @@ a {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 #sam-main-back-ground-left-img-section {
@@ -513,9 +422,6 @@ a {
 #sam-absolute-top-sam-container {
     width: 85%;
     height: max-content;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     /* border: 1px solid black; */
 }
 
@@ -544,6 +450,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 0.8rem;
+    padding-top: 20px;
 }
 
 #sam-absolute-bottom-sam-container {
@@ -711,17 +618,6 @@ a {
     font-weight: 600;
 }
 
-#our-commitment-btn-section {
-    width: max-content;
-    height: max-content;
-    padding: 12px;
-    padding-left: 45px;
-    padding-right: 45px;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #1b71ff;
-}
-
 #our-commitment-main-bottom-container {
     width: 85%;
     height: 75vh;
@@ -775,8 +671,9 @@ a {
     width: 85%;
     height: 25vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 .footer-main-top-multi-box-container {
@@ -805,7 +702,24 @@ a {
 #footer-logo-para-link-container {
     width: 30%;
     height: 25vh;
-    border: 1px solid yellowgreen;
+}
+
+#footer-logo-section {
+    width: 40%;
+    height: 15vh;
+    background-image: url('../img/home-page-hero-section-imgs/Vyam-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#footer-media-links {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 38px;
 }
 
 .footer-icon-with-para-section {
