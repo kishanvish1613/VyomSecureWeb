@@ -157,6 +157,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     margin-top: 10px;
     gap: 40px;
 }
