@@ -219,9 +219,6 @@ a {
     align-items: center;
 }
 
-
-
-
 #about-absolute-main-bottom-container {
     width: 85%;
     height: 70vh;
@@ -298,6 +295,11 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+#our-service-quality {
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 #service-multiple-boxs-container {
@@ -592,6 +594,8 @@ a {
     transform: rotate(180deg);
 }
 
+
+/* Our Commitment to You */
 #our-commitment-main-container {
     width: 100%;
     height: 120vh;

@@ -1,10 +1,21 @@
 @media (max-width: 320px) {
     #hero-main-container {
+        background-image: none;
         width: 100%;
+    }
+
+    #hero-absolute-left-fade-img-container {
+        display: none;
+    }
+
+    #hero-absolute-right-fade-img-container {
+        display: none;
     }
 
     #hero-main-nav-bar-container {
         padding: 5px;
+        background: #ffffff;
+        box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
     }
 
     #hero-nav-bar-left-container {
@@ -15,6 +26,11 @@
         width: 80%;
         gap: 10px;
         padding-right: 0px;
+    }
+
+    .nav-bar-links p {
+        width: max-content;
+        font-size: 0.8rem;
     }
 
     #hero-main-circle-img-heading-btn-container {
@@ -37,52 +53,270 @@
     #hero-para-text-container {
         margin-top: 30px;
         width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    #half-img {
+        display: none;
     }
 
     #para-text {
         font-size: 0.8rem;
     }
 
-    #hero-para-bottom-btn {
-        padding: 8px;
-        padding-left: 20px;
-        padding-right: 20px;
+    #hero-logo-top-container {
+        width: 50%;
+        height: 30vh;
+        background-image: url('../img/home-page-hero-section-imgs/Vyam-logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     /* about */
 
+    #about-main-container {
+        height: 65vh;
+        background-image: none;
+    }
+
+    #about-absolute-left-fade-img-container {
+        display: none;
+    }
+
+    #about-absolute-right-fade-img-container {
+        display: none;
+    }
+
     #about-absolute-main-container {
-        overflow: hidden;
-    }
-
-    #about-main-absolute-top-boxs-container {
-        height: max-content;   
-        align-items: center;   
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .about-content-section {
+        height: 65vh;
         width: 100%;
-        height: 30vh;
-        gap: 10px;
+        overflow: hidden;
+    }   
+
+    #about-absolute-main-bottom-container {
+        width: 90%;
+        height: max-content;
     }
 
-    .about-content-img-section {
-        height: 6vh;
+    #about-absolute-main-bottom-container-left-section {
+        width: 100%;
+        gap: 30px;
+        height: max-content;
+        flex-direction: column;
     }
 
-    .about-content-heading-section {
-        font-size: 1.1rem;
-        font-weight: 500;
+    #about-absolute-main-bottom-container-left-section-about-heading {
+        font-size: 1.2rem;
+        color: #1b71ff;
     }
 
-    .about-content-para-section {
+    #about-absolute-main-bottom-container-left-section-security-heading {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    #about-absolute-main-bottom-container-left-section-para-section {
+        width: 100%;
+    }
+
+    #about-absolute-main-bottom-container-right-section {
+        display: none;
+    }
+
+    #about-absolute-main-bottom-container-right-section-img-circle-section {
+        display: none;
+    }
+
+    /* our service */
+
+    #service-main-container {
+        height: 155vh;
+    }
+
+    #our-service-quality {
+        font-size: 1rem;
+    }
+
+    #service-multiple-boxs-container {
+        height: 135vh;
+    }
+
+    #service-multiple-box-top-container {
+        height: 135vh;
+        flex-direction: column;
+    }
+
+    .service-multi-box-top-container {
+        width: 80%;
+        height: 40vh;
+    }
+
+    .service-img-section {
+        width: 40%;
+        height: 5vh;
+    }
+
+    .service-heading-section {
+        font-size: 0.7rem;
+    }
+
+    .service-para-section {
+        font-size: 0.6rem;
+    }
+
+    /* sam-service */
+
+    #sam-main-container {
+        height: 160vh;
+    }
+
+    #sam-absolute-main-container {
+        height: 160vh;
+    }
+
+    #sam-absolute-top-sam-container {
+        height: max-content;
+        width: 90%;
+    }
+    
+    #sam-abso-left-heading-service-section {
+        width: 100%;
+    }
+
+    #sam-main-back-ground-left-img-section {
+        display: none;
+    }
+
+    #sam-main-back-ground-right-img-section {
+        display: none;
+    }
+
+    #sam-abso-right-heading-service-section {
+        width: 100%;
+    }
+
+    #sam-heading-section {
+        font-size: 1.2rem;
+    }
+
+    #sam-absolute-bottom-sam-container {
+        width: 90%;
+    }
+
+    #sam-abso-bottom-left-container {
+        width: 35%;
+        height: 50vh;
+    }
+
+    .sam-center-multi-box {
+        width: 100%;
+        height: 4vh;
+    }
+
+    .sam-center-multi-para-section {
+        font-size: 0.5rem;
+    }
+
+    .sam-center-multi-img-section {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sam-center-multi-img-section i {
+        font-size: 0.7rem;
+    }
+
+    #sam-abso-bottom-center-container {
+        width: 70px;
+        height: 70px; 
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #sam-abso-bottom-right-container {
+        width: 30%;
+        height: 50vh;
+    }
+
+    #sam-absolute-faq-container {
+        width: 90%;
+    }
+
+    #sam-faq-heading-section {
         font-size: 0.8rem;
     }
 
-    #about-main-bottom-left-content-container{
-        border: 1px solid rgb(136, 0, 255);
+    #sam-faq-heading {
+        font-size: 0.6rem;
+        font-size: 200;
     }
 
+    /* Our Commitment to You */
+
+    #our-commitment-main-container {
+        background-image: none;
+        height: 100vh;
+    }
+
+    #contact-us {
+        font-size: 1.3rem;
+    }
+
+    #our-commitment-para-section {
+        font-size: 0.8rem;
+    }
+
+    #our-commitment-main-bottom-container {
+        width: 90%;
+        height: 75vh;
+    }
+
+    #our-commitment-main-bottom-left-container {
+        display: none;
+    }
+
+    #our-commitment-main-bottom-right-container {
+        width: 100%;
+    }
+
+    #form-heading-section {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    /* /footer */
+
+    #footer-main-top-container {
+        overflow: hidden;
+        width: 90%;
+        gap: 10px;
+    }
+
+    .footer-main-top-multi-box-container {
+        width: max-content;
+        height: 25vh;
+    }
+
+    #footer-logo-para-link-container {
+        display: none;
+    }
+
+    .footer-our-service-heading {
+        font-size: 1rem;
+    }
+
+    .footer-our-service-links {
+        font-size: 0.7rem;
+    }
+
+    #footer-main-bottom-container {
+        text-align: center;
+        font-size: 0.8rem;
+    }
 }
+
