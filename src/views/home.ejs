@@ -11,64 +11,190 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- css -->
     <link rel="stylesheet" href="/stylesheet/home-reps.css">
+    <!-- swiper -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>VyomSecure</title>
 </head>
 <body>
     <div id="container">
         <!-- hero-section -->
-        <div id="hero-back-ground-img-back-container">
-            <div id="hero-abso-black-with-trans-container">
-                <div id="hero-abso-left-nav-bar-container">
-                    <div class="hero-abso-left-nav-bar-logo-section"></div>
-                    <div class="hero-abso-left-nav-bar-links-section">
-                        <div><i class="ri-linkedin-box-fill"></i></div>
-                        <div><i class="ri-twitter-x-fill"></i></div>
-                        <div><i class="ri-facebook-box-fill"></i></div>
-                        <div><i class="ri-instagram-fill"></i></div>
-                        <div><i class="ri-phone-fill"></i></div>
-                    </div>
+        <div id="hero-section">
+            <div id="nav-bar-section">
+                <div id="nav-bar-left-section"></div>
+                <div id="nav-bar-right-section">
+                    <div class="nav-links btn"><p><span class="Vyomsecure-heading-color">Home</span></p></div>
+                    <div class="nav-links btn"><p>About</p></div>
+                    <div class="nav-links btn"><p>Services</p></div>
+                    <div class="nav-links btn"><p>SAM Services</p></div>
+                    <div class="nav-links btn"><p>Contact</p></div>
                 </div>
-                <div id="hero-abso-right-nav-bar-container">
-                    <div class="hero-abso-left-nav-bar-menu-section">
-                        <div id="humburger"><i class="ri-menu-3-line"></i></div>
-                        <div class="menu-circle"></div>
-                        <div id="menu-hidden">
-                            <ul>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#services">Services</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                                <li><a href="#blog">Blog</a></li>
-                            </ul>
-                        </div>
-                    </div>
+            </div>
+            <div id="hero-main-container">
+                <div id="hero-main-left-container">
+                    <div><h1>Welcome to <span class="Vyomsecure-heading-color">Vyomsecure</span></h1></div>
+                    <div><p id="hero-section-sub-heading">Your Trusted Partner in <span class="cyber-heading-color">CyberSecurity</span></p></div>
+                    <div><p id="para-heading">At Vyomsecure, we specialize in providing world-class Vulnerability Assessment and Penetration Testing (VAPT) services to safeguard your digital assets. With the rapid evolution of cyber threats, your business's security is more critical than ever. VyomSecure is here to ensure your digital environment remains secure, resilient, and compliant with industry standards.</p></div>
+                    <div id="hero-section-contact-btn" class="btn"><p>Contact Us</p></div>
                 </div>
-                <div id="hero-heading-and-sub-heading-with-para-container">
-                    <div id="hero-heading-container">
-                        <h1>Welcome to Vyomsecure</h1>
-                    </div>
-                    <div id="hero-sub-heading-container">
-                        <div class="wrapper">
-                            <div class="static-txt">Your Trusted Partner in</div>
-                            <ul class="dynamic-txts">
-                                <li><span>CyberSecurity</span></li>
-                                <li><span>Vulnerability Assessment</span></li>
-                                <li><span>Penetration Testing</span></li>
-                                <li><span>Security Testing</span></li>
-                                <li><span>Network Testing</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="hero-para-container">
-                        <p>At VyomSecure, we specialize in providing world-class Vulnerability Assessment and Penetration Testing (VAPT) services to safeguard your digital assets. With the rapid evolution of cyber threats, your business's security is more critical than ever. VyomSecure is here to ensure your digital environment remains secure, resilient, and compliant with industry standards.</p>
-                    </div>
-                    <div id="hero-abso-circle-container"></div>
+                <div id="hero-main-right-container"></div>
+            </div>
+        </div>
+
+        <!-- card-section -->
+        <div id="card-section">
+            <div class="card-carry-img-para-section">
+                <div class="card-carry-main-section">
+                    <div class="card-img" id="card-img-one"></div>
+                    <div class="card-para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor harum molestiae numquam ab officia rem qui vel aspernatur dicta, voluptatibus dolores officiis iusto aliquid reiciendis velit explicabo eum maxime? Impedit, nam.</p></div>
+                </div>
+            </div>
+            <div class="card-carry-img-para-section">
+                <div class="card-carry-main-section">
+                    <div class="card-img" id="card-img-two"></div>
+                    <div class="card-para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor harum molestiae numquam ab officia rem qui vel aspernatur dicta, voluptatibus dolores officiis iusto aliquid reiciendis velit explicabo eum maxime? Impedit, nam.</p></div>
+                </div>
+            </div>
+            <div class="card-carry-img-para-section">
+                <div class="card-carry-main-section">
+                    <div class="card-img" id="card-img-three"></div>
+                    <div class="card-para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor harum molestiae numquam ab officia rem qui vel aspernatur dicta, voluptatibus dolores officiis iusto aliquid reiciendis velit explicabo eum maxime? Impedit, nam.</p></div>
                 </div>
             </div>
         </div>
+
+        <!-- about-section -->
+        <div id="about-section">
+            <div id="about-left-section">
+                <div id="about-heading"><p><span class="Vyomsecure-heading-color">Who We Are</span></p></div>
+                <div id="about-sub-heading"><p>Security for your digital products is just a click away with <span class="Vyomsecure-heading-color">Vyomsecure</span></p></div>
+                <div id="about-para"><p>SecureVyom is a leading cybersecurity firm committed to delivering comprehensive security solutions that identify and eliminate vulnerabilities before they can be exploited. Our team of certified ethical hackers, cybersecurity experts, and seasoned penetration testers work together to ensure that your systems are fortified against the most sophisticated attacks.</p></div>
+            </div>
+            <div id="about-right-section"></div>
+        </div>
+
+        <!-- our-service -->
+        <div id="our-services">
+            <div id="our-services-top-section">
+                <div class="our-services-heading"><p><span class="Vyomsecure-heading-color">Our Services</span></p></div>
+                <div class="our-services-sub-heading"><p>With quality services for you</p></div>
+                <div class="our-services-para"><p>We offer a complete suite of VAPT services designed to provide you with a clear understanding of your security posture, identify potential vulnerabilities, and implement effective solutions to close any gaps.</p></div>
+            </div>
+            <div id="our-services-bottom-section">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-main-flex-section">
+                                <div class="our-services-swiper-img-section" id="our-services-swiper-img-one"></div>
+                                <div class="our-services-swiper-heading-section"><p>Vulnerability Assessment</p></div>
+                                <div class="our-services-swiper-para-section"><p>Our Vulnerability Assessment service focuses on identifying, quantifying, and prioritizing security weaknesses in your systems, networks, and applications. We use state-of-the-art tools and methodologies to conduct thorough scans and generate detailed reports that provide insights into the most critical issues facing your infrastructure.</p></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-main-flex-section">
+                                <div class="our-services-swiper-img-section" id="our-services-swiper-img-two"></div>
+                                <div class="our-services-swiper-heading-section"><p>Penetration Testing</p></div>
+                                <div class="our-services-swiper-para-section"><p>Our Penetration Testing simulates real-world attacks on your systems to identify vulnerabilities that hackers could exploit. This service includes both internal and external testing, covering web applications, networks, APIs, and mobile platforms. We adopt both manual and automated testing approaches to ensure nothing is missed.</p></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-main-flex-section">
+                                <div class="our-services-swiper-img-section" id="our-services-swiper-img-three"></div>
+                                <div class="our-services-swiper-heading-section"><p>Web Application Security Testing</p></div>
+                                <div class="our-services-swiper-para-section"><p>Our team assesses your web applications for vulnerabilities, including SQL injection, cross-site scripting (XSS), broken authentication, and other OWASP Top 10 threats. We help secure your applications from end to end, ensuring they comply with the latest security best practices.</p></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-main-flex-section">
+                                <div class="our-services-swiper-img-section" id="our-services-swiper-img-four"></div>
+                                <div class="our-services-swiper-heading-section"><p>Network Security Testing</p></div>
+                                <div class="our-services-swiper-para-section"><p>SecureVyom offers in-depth network security assessments that identify vulnerabilities across your network infrastructure. From routers and switches to firewalls and endpoints, we ensure your entire network is protected against potential threats.</p></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-main-flex-section">
+                                <div class="our-services-swiper-img-section" id="our-services-swiper-img-five"></div>
+                                <div class="our-services-swiper-heading-section"><p>Cloud Security Assessment</p></div>
+                                <div class="our-services-swiper-para-section"><p>As more businesses transition to the cloud, SecureVyom ensures that your cloud environments (AWS, Azure, Google Cloud, etc.) are secure. We evaluate misconfigurations, weak access controls, and other vulnerabilities specific to cloud platforms, ensuring your cloud infrastructure is as secure as your on-premise systems.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- our-sam-services -->
+        <div id="our-sam-service-section">
+            <div id="our-sam-service-top-section">
+                <div class="our-services-heading"><p><span class="Vyomsecure-heading-color">Our SAM Services</span></p></div>
+                <div class="our-services-sub-heading"><p>Software Asset Management</p></div>
+                <div class="our-services-para"><p>Software Asset Management (SAM) helps organizations effectively track, manage, and optimize their software assets throughout their lifecycle. It ensures compliance, minimizes risks, and reduces costs through efficient process and risk management, while enhancing overall operational efficiency and cost optimization.</p></div>
+            </div>
+            <div id="our-sam-service-bottom-section">
+                <div class="sam-serivce-ui-section" id="sam-serivce-ui-left-section">
+                    <div class="sam-service-ui-boxs" id="sam-service-ui-boxs-one">
+                        <div class="sam-service-ui-boxs-heading"><p>Asset<br>Management</p></div>
+                        <div class="sam-service-ui-boxs-icons" style="color: silver; border: 1.5px solid silver;"><i class="ri-settings-3-line"></i></div>
+                    </div>
+                    <div class="sam-service-ui-boxs" id="sam-service-ui-boxs-two">
+                        <div class="sam-service-ui-boxs-heading"><p>Lifecycle<br>Management</p></div>
+                        <div class="sam-service-ui-boxs-icons" style="color: green; border: 1.5px solid green;"><i class="ri-loop-right-line"></i></div>
+                    </div>
+                    <div class="sam-service-ui-boxs" id="sam-service-ui-boxs-three">
+                        <div class="sam-service-ui-boxs-heading"><p>Risk<br>Management</p></div>
+                        <div class="sam-service-ui-boxs-icons" style="color: red; border: 1.5px solid red;"><i class="ri-alert-line"></i></div>
+                    </div>
+                </div>
+                <div id="sam-serivce-ui-centre-section"><p><span class="Vyomsecure-heading-color">SAM</span></p></div>
+                <div class="sam-serivce-ui-section" id="sam-serivce-ui-right-section">
+                    <div class="sam-service-ui-boxs" id="sam-service-ui-boxs-four">
+                        <div class="sam-service-ui-boxs-icons" style="color: yellow; border: 1.5px solid yellow;"><i class="ri-money-rupee-circle-line"></i></div>
+                        <div class="sam-service-ui-boxs-heading"><p>Cost<br>Optimization</p></div>
+                    </div>
+                    <div class="sam-service-ui-boxs" id="sam-service-ui-boxs-five">
+                        <div class="sam-service-ui-boxs-icons" style="color: royalblue; border: 1.5px solid royalblue;"><i class="ri-verified-badge-line"></i></div>
+                        <div class="sam-service-ui-boxs-heading"><p>Compliance</p></div>
+                    </div>
+                    <div class="sam-service-ui-boxs" id="sam-service-ui-boxs-six">
+                        <div class="sam-service-ui-boxs-icons" style="color: rgb(252, 120, 142); border: 1.5px solid rgb(252, 120, 142);"><i class="ri-drag-move-line"></i></div>
+                        <div class="sam-service-ui-boxs-heading"><p>Process<br>Management</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- temp -->
+        <div class="temp">
+            
+        </div>
     </div>
 
-    <!-- js -->
-    <script src="/js/homePage.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        centeredSlides: false,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+    </script>
 </body>
 </html>
