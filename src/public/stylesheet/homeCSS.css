@@ -632,6 +632,7 @@ html,body{
 #contact-right-section {
     width: 47%;
     height: max-content;
+    overflow: hidden;
 }
 
 .form-container {
