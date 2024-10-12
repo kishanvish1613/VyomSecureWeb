@@ -20,7 +20,10 @@ const submitForm = async (req, res) => {
         // Add a new row
         await sheet.addRow({ Name: name, Email: email, Message: message });
 
-        return res.redirect('/');
+        return res.status(200).json({
+            success: true,
+            message: 'Form data submitted successfully!',
+        });
     } catch (error) {
         return res.status(500).json({
             success: false,

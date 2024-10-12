@@ -223,7 +223,7 @@
                 <div id="contact-left-section"></div>
                 <div id="contact-right-section">
                     <div class="form-container">
-                        <form action="/submit" method="POST" class="contact-form">
+                        <form id="contactForm" class="contact-form">
                             <div class="form-group">
                                 <label for="name">Name:</label>
                                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -240,10 +240,11 @@
                             </div>
                     
                             <div class="form-group">
-                                <button type="submit" class="submit-btn">Submit</button>
+                                <button type="submit" class="submit-btn" id="submitBtn">Submit</button>
+                                <div class="spinner" id="spinner"></div>
                             </div>
                         </form>
-                    </div>                                     
+                    </div>                                    
                 </div>
             </div>
         </div>
