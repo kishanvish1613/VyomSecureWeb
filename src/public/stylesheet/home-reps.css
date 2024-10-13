@@ -1,34 +1,32 @@
 @media (max-width: 375px) {
     #nav-bar-left-section {
-        width: 15%; /* Adjust logo size */
+        width: 15%;
     }
 
     #nav-bar-right-section {
-        width: 80%; /* Allow more space for nav links */
+        width: 80%;
         gap: 5px;
         padding-right: 10px;
     }
 
     .nav-links {
-        font-size: 0.7rem; /* Reduce font size for nav links */
+        font-size: 0.7rem;
     }
 
     #hero-main-container {
         width: 100%;
-        flex-direction: column; /* Stack left and right containers vertically */
+        flex-direction: column;
         gap: 15px;
-        padding: 0 10px; /* Add some padding */
-        background-image: url('../img/home-page-hero-section-imgs/hero-section-2.gif');
+        /* background-image: url('../img/home-page-hero-section-imgs/hero-section-2.gif');
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
-        background-color: rgba(0, 0, 0, 0.514);
+        background-size: contain; */
     }
 
     #hero-main-left-container {
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.514);
-        
+        padding: 20px;
+        /* background-color: rgba(0, 0, 0, 0.335); */
     }
 
     #hero-main-left-container h1 {
@@ -37,20 +35,171 @@
     }
 
     #hero-section-sub-heading {
-        font-size: 1rem; /* Reduce subheading font size */
+        font-size: 1.1rem;
+    }
+
+    #para-heading p {
+        font-size: 0.9rem;
     }
 
     #hero-section-contact-btn {
-        margin-top: 120px;
+        margin-top: 110px;
         margin-bottom: 10px;
-        width: 40%; /* Make button full width */
+        width: 40%;
         text-align: center;
+        font-size: 0.9rem;
     }
 
     #hero-main-right-container {
         display: none;
-        width: 100%; /* Full width for image */
-        height: 50vh; /* Reduce height of the right container */
-        background-size: cover; /* Ensure the image covers the entire area */
+        width: 100%;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    /* card */
+
+    #card-section {
+        display: none;
+    }
+
+    /* about-section */
+
+    #about-section {
+        width: 100%;
+    }
+
+    #about-left-section {
+        width: 100%;
+        margin: 20px;
+        margin-top: 40px;
+    }
+
+    #about-sub-heading {
+        font-size: 1.9rem;
+    }
+
+    #about-para p {
+        font-size: 0.9rem;
+    }
+
+    #about-right-section {
+        display: none;
+    }
+
+    /* our-services */
+
+    #our-services-top-section {
+        width: 87%;
+        margin-top: 60px;
+    }
+
+    .our-services-sub-heading {
+        font-size: 1.9rem;
+    }
+
+    .our-services-para {
+        font-size: 0.9rem;
+    }
+
+    .our-services-swiper-para-section {
+        font-size: 0.9rem;
+    }
+
+    /* our-sam-services */
+
+    #our-sam-service-top-section {
+        width: 87%;
+        margin-top: 60px;
+    }
+
+    #our-sam-service-bottom-section {
+        width: 87%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .sam-serivce-ui-section {
+        gap: 30px;
+    }
+
+    #sam-serivce-ui-centre-section {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+
+    .sam-service-ui-boxs-heading {
+        font-size: 0.8rem;
+        margin: 1px;
+        margin-left: 8px;
+        margin-right: 5px;
+    }
+
+    #sam-serivce-ui-right-section .sam-service-ui-boxs-heading {
+        margin-right: 5px;
+    }
+
+    .sam-service-ui-boxs-icons {
+        margin: 5px;
+        margin-left: 3px;
+        margin-right: 1px;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 0.6rem;
+    }
+
+    #sam-service-ui-boxs-two {
+        margin-right: 10px;
+    }
+
+    #sam-service-ui-boxs-five {
+        margin-left: 10px;
+    }
+
+    /* faq-section */
+
+    #faq-top-section {
+        width: 87%;
+        height: max-content;
+        margin-top: 20px;
+    }
+
+    .faq-animation-heading {
+        font-size: 1rem;
+    }
+
+    .faq-animation-icon i {
+        font-size: 1rem;
+    }
+
+    .faq-animation-para {
+        font-size: 0.9rem;
+    }
+
+    /* contact-section */
+
+    .contact-mini-section {
+        width: 100%;
+        border: none;
+    }
+
+    #contact-left-section {
+        display: none;
+    }
+
+    #contact-right-section  {
+        width: 100%;
+    }
+
+    /* footer-section */
+
+    #footer-top-section {
+        font-size: 0.9rem;
+    }
+
+    #footer-bottom-section {
+        text-align: center;
+        font-size: 0.9rem;
     }
 }

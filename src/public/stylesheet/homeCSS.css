@@ -399,6 +399,7 @@ html,body{
 .our-services-swiper-heading-section {
     height: 6vh;
     font-size: 1.2rem;
+    text-align: center;
     font-weight: 600;
     padding-top: 15px;
     color: #5271ff;
