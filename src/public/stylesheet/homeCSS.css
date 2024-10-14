@@ -105,6 +105,10 @@ html,body{
     color: #5271ff !important;
 }
 
+.Vyomsecure-heading-color {
+    color: #5271ff;
+}
+
 #hero-section-sub-heading {
     font-size: 1.3rem;
 }
