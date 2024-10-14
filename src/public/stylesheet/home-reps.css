@@ -43,7 +43,7 @@
     }
 
     #hero-section-contact-btn {
-        margin-top: 80px;
+        margin-top: 65px;
         margin-bottom: 10px;
         width: 40%;
         text-align: center;
@@ -190,6 +190,10 @@
 
     #contact-right-section  {
         width: 100%;
+    }
+
+    #contact-heading-id  {
+        padding-left: 10px;
     }
 
     /* footer-section */
