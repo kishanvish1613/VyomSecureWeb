@@ -101,6 +101,11 @@ html,body{
     font-size: 5.5rem;
 }
 
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
 .Vyomsecure-heading-color a {
     color: #5271ff !important;
 }
