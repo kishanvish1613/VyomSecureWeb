@@ -634,7 +634,7 @@
   }
 
   #hero-main-left-container {
-    width: 55%;
+    width: 100%;
     padding: 20px;
     /* background-color: rgba(0, 0, 0, 0.335); */
   }
@@ -655,15 +655,15 @@
   #hero-section-contact-btn {
     margin-top: 65px;
     margin-bottom: 10px;
-    width: 40%;
     text-align: center;
     font-size: 0.9rem;
   }
 
   #hero-main-right-container {
-    width: 45%;
+    width: 40%;
     height: 50vh;
     background-size: cover;
+    display: none;
   }
 
   /* card */
@@ -682,6 +682,7 @@
     width: 45%;
     margin: 10px;
     height: 15vh;
+    display: none;
   }
 
   .card-para {
@@ -701,7 +702,8 @@
   }
 
   #about-sub-heading {
-    font-size: 1.3rem;
+    width: 65%;
+    font-size: 1.9rem;
   }
 
   #about-para p {
@@ -717,10 +719,12 @@
   #our-services-top-section {
     width: 95%;
     margin-top: 60px;
+    margin-bottom: 30px;
   }
 
   .our-services-sub-heading {
-    font-size: 1.3rem;
+    width: 65%;
+    font-size: 1.9rem;
   }
 
   .our-services-para {
@@ -921,7 +925,8 @@
   }
 
   #about-sub-heading {
-    font-size: 1.3rem;
+    width: 50%;
+    font-size: 2rem;
   }
 
   #about-para p {
@@ -937,10 +942,12 @@
   #our-services-top-section {
     width: 95%;
     margin-top: 60px;
+    margin-bottom: 50px;
   }
 
   .our-services-sub-heading {
-    font-size: 1.3rem;
+    width: 50%;
+    font-size: 2rem;
   }
 
   .our-services-para {
