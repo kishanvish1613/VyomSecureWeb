@@ -612,3 +612,58 @@
     padding-left: 10px;
   }
 }
+
+@media only screen and (min-width: 570px) and (max-width: 768px) {
+  #nav-bar-left-section {
+    width: 15%;
+  }
+
+  #nav-bar-right-section {
+    width: 80%;
+    gap: 5px;
+    padding-right: 5px;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+  }
+
+  #hero-main-container {
+    width: 100%;
+    gap: 10px;
+    border: 1px solid white;
+  }
+
+  #hero-main-left-container {
+    width: 50%;
+    padding: 20px;
+    /* background-color: rgba(0, 0, 0, 0.335); */
+  }
+
+  #hero-main-left-container h1 {
+    margin-top: 80px;
+    font-size: 3rem;
+  }
+
+  #hero-section-sub-heading {
+    font-size: 1.3rem;
+  }
+
+  #para-heading p {
+    font-size: 0.9rem;
+  }
+
+  #hero-section-contact-btn {
+    margin-top: 65px;
+    margin-bottom: 10px;
+    width: 40%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  #hero-main-right-container {
+    width: 50%;
+    height: 50vh;
+    background-size: cover;
+  }
+}
