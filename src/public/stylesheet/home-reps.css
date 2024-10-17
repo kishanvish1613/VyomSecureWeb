@@ -836,8 +836,9 @@
 
   #nav-bar-right-section {
     width: 80%;
-    gap: 5px;
-    padding-right: 5px;
+    gap: 0px;
+    padding-right: 1px;
+    border: 1px solid white;
   }
 
   .nav-links {
@@ -851,7 +852,7 @@
   }
 
   #hero-main-left-container {
-    width: 50%;
+    width: 55%;
     padding: 20px;
     /* background-color: rgba(0, 0, 0, 0.335); */
   }
@@ -878,8 +879,9 @@
   }
 
   #hero-main-right-container {
-    width: 50%;
+    width: 45%;
     height: 50vh;
-    background-size: cover;
+    background-size: contain;
+    border: 1px solid white;
   }
 }
