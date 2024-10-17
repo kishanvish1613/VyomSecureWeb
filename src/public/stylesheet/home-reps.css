@@ -887,6 +887,10 @@
   .card-carry-img-para-section {
     width: 30%;
     height: 45vh;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
   }
 
   .card-carry-main-section {
@@ -1001,6 +1005,12 @@
 
   #sam-service-ui-boxs-five {
     margin-left: 35px;
+  }
+
+  /* contact section */
+  #contact-left-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   /* faq-section */
