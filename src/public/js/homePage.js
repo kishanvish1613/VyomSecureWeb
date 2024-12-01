@@ -75,3 +75,19 @@ function formSubmitFNC() {
 }
 
 formSubmitFNC();
+
+
+
+function toggleMenu() {
+    const menu = document.getElementById("nav-bar-right-section");
+    menu.classList.toggle("active");
+
+    // Add a futuristic animation for the bars
+    const bars = document.querySelectorAll(".bar");
+    bars.forEach((bar, index) => {
+        bar.style.transform = menu.classList.contains("active")
+            ? `translateX(10px) rotate(${45 * index}deg)`
+            : "translateX(0) rotate(0)";
+    });
+}
+
