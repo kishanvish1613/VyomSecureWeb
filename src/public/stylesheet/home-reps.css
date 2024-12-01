@@ -198,6 +198,26 @@
     font-size: 0.9rem;
   }
 
+  #footer-links-section {
+    overflow: hidden;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+  }
+
+  .footer-links div i {
+    display: none;
+  }
+
+  .footer-links div a {
+    font-size: 0.6rem;
+  }
+
   #footer-bottom-section {
     text-align: center;
     font-size: 0.9rem;
@@ -406,6 +426,26 @@
 
   #footer-top-section {
     font-size: 0.9rem;
+  }
+
+  #footer-links-section {
+    overflow: hidden;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+  }
+
+  .footer-links div i {
+    font-size: 0.7rem;
+  }
+
+  .footer-links div a {
+    font-size: 0.7rem;
   }
 
   #footer-bottom-section {
