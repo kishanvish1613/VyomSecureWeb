@@ -80,7 +80,7 @@ html,body{
     background-image: url('../img/home-page-hero-section-imgs/pixelcut-export\ \(1\).jpeg.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
