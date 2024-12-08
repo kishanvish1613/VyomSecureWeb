@@ -91,3 +91,27 @@ function toggleMenu() {
     });
 }
 
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('.page-section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                const navLink = document.querySelector(`.nav-link[href="#${entry.target.id}"]`);
+                if (entry.isIntersecting) {
+                    // Highlight the active link
+                    navLinks.forEach((link) => link.classList.remove('active'));
+                    navLink.classList.add('active');
+                }
+            });
+        },
+        {
+            root: null, // Use the viewport as the root
+            threshold: 0.6, // Trigger when 60% of the section is visible
+        }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+});
