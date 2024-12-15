@@ -40,12 +40,13 @@ html,body{
 }
 
 #nav-bar-left-section {
-    width: 10%;
+    width: 15%;
     height: 10vh;
-    background-image: url('../img/home-page-hero-section-imgs/Vyam\ logo-02.png');
+    background-image: url('../img/home-page-hero-section-imgs/Vyomsecure-logo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    background-size: 60%;
 }
 
 #nav-bar-right-section {
