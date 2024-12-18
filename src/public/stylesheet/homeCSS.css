@@ -55,12 +55,12 @@ html,body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     padding-right: 20px;
 }
 
 .nav-links {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -107,7 +107,7 @@ html,body{
 
 #hero-main-left-container h1 {
     margin-top: 50px;
-    font-size: 5.5rem;
+    font-size: 4.5rem;
 }
 
 .btn a {
@@ -124,7 +124,7 @@ html,body{
 }
 
 #hero-section-sub-heading {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .cyber-heading-color {
@@ -134,6 +134,7 @@ html,body{
 #para-heading {
     margin-top: 30px;
     align-items: center;
+    font-size: 0.8rem;
 }
 
 #hero-section-contact-btn {
@@ -145,6 +146,7 @@ html,body{
     margin-top: 20px;
     background-color: #5271ff;
     border-radius: 7px;
+    font-size: 0.8rem;
 }
 
 .btn {
@@ -233,6 +235,8 @@ html,body{
 }
 
 #card-img-one {
+    width: 30%;
+    height: 13vh;
     background-image: url('../img/icons/data-security.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -257,6 +261,7 @@ html,body{
     margin: 25px;
     margin-top: 10px;
     text-align: center;
+    font-size: 0.8rem;
 }
 
 
