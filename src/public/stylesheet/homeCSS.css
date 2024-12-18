@@ -124,7 +124,7 @@ html,body{
 }
 
 #hero-section-sub-heading {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .cyber-heading-color {
@@ -134,7 +134,7 @@ html,body{
 #para-heading {
     margin-top: 30px;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 #hero-section-contact-btn {
@@ -146,7 +146,7 @@ html,body{
     margin-top: 20px;
     background-color: #5271ff;
     border-radius: 7px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .btn {
@@ -174,7 +174,7 @@ html,body{
 
 .card-carry-img-para-section {
     width: 25%;
-    height: 39vh;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,7 +193,7 @@ html,body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: max-content;
     border: 5px solid transparent;
     border-radius: 10px;
     background: linear-gradient(45deg, red, orange, yellow, green, blue, purple, red);
@@ -216,7 +216,7 @@ html,body{
 
 .card-carry-main-section {
     width: 99%;
-    height: 38.5vh;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,7 +261,7 @@ html,body{
     margin: 25px;
     margin-top: 10px;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 
