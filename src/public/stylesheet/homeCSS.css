@@ -550,9 +550,89 @@ html,body{
     align-items: center;
     border-radius: 50%;
     font-size: 4rem;
+    border: 2px solid rgba(255, 255, 255, 0.125);
+}
+
+/* our-clients */
+#our-clients-section {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#our-clients-top-section {
+    width: 86%;
+    height: max-content;
+    margin-top: 40px;
+}
+
+#our-clients-bottom-section {
+    width: 86%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+}
+
+#our-clients-bottom-top-section {
+    width: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 28px;
+}
+
+#our-clients-bottom-bottom-section {
+    width: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 28px;
+}
+
+.our-clients-bottom-box-section {
+    width: 31%;
+    height: 30vh;
+    margin-top: 65px;
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
     border: 1.5px solid rgba(255, 255, 255, 0.125);
 }
 
+#our-clients-img-one {
+    background-image: url('../img/home-page-hero-section-imgs/samanvayan.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#our-clients-img-two {
+    background-image: url('../img/home-page-hero-section-imgs/cis.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#our-clients-img-three {
+    background-image: url('../img/home-page-hero-section-imgs/potent.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#our-clients-img-four {
+    background-image: url('../img/home-page-hero-section-imgs/infastru.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 /* faq-section */
 
