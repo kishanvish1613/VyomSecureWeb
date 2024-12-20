@@ -165,6 +165,7 @@
   #our-clients-bottom-top-section {
     width: 100%;
     justify-content: center;
+    margin-top: 30px;
   }
 
   #our-clients-bottom-bottom-section {
@@ -174,7 +175,7 @@
 
   .our-clients-bottom-box-section {
     width: 45%;
-    margin-top: 10px;
+    margin-top: 3px;
   }
 
   /* faq-section */
@@ -407,6 +408,32 @@
     margin-left: 20px;
   }
 
+  /* our-clients */
+
+  #our-clients-bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #our-clients-bottom-top-section {
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  #our-clients-bottom-bottom-section {
+    width: 100%;
+    justify-content: center; 
+  }
+
+  .our-clients-bottom-box-section {
+    width: 40%;
+    margin-top: 3px;
+  }
+
+
   /* faq-section */
 
   #faq-top-section {
@@ -637,6 +664,32 @@
     margin-left: 20px;
   }
 
+    /* our-clients */
+
+    #our-clients-bottom-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    #our-clients-bottom-top-section {
+      width: 100%;
+      justify-content: center;
+      margin-top: 30px;
+    }
+  
+    #our-clients-bottom-bottom-section {
+      width: 100%;
+      justify-content: center; 
+    }
+  
+    .our-clients-bottom-box-section {
+      width: 40%;
+      margin-top: 3px;
+    }
+  
+
   /* faq-section */
 
   #faq-top-section {
@@ -854,6 +907,32 @@
   #sam-service-ui-boxs-five {
     margin-left: 20px;
   }
+
+    /* our-clients */
+
+    #our-clients-bottom-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    #our-clients-bottom-top-section {
+      width: 100%;
+      justify-content: center;
+      margin-top: 30px;
+    }
+  
+    #our-clients-bottom-bottom-section {
+      width: 100%;
+      justify-content: center; 
+    }
+  
+    .our-clients-bottom-box-section {
+      width: 38%;
+      margin-top: 3px;
+    }
+  
 
   /* faq-section */
 
