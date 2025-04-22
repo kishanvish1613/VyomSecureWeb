@@ -28,7 +28,7 @@ const submitForm = async (req, res) => {
         return res.status(500).json({
             success: false,
             message: 'Failed to submit form data',
-            error: error.message,
+            error: error,
         });
     }
 };

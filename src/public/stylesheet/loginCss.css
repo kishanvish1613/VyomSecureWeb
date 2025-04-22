@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    background-color: #010d25;
+} 
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    width: 35%;
+    height: 100vh;
+    border: 1px solid whitesmoke;
+}
+
+.right-section {
+    width: 65%;
+    height: 100vh;
+    background-image: url('../img/loginpage/loginpage-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

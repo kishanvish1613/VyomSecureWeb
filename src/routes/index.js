@@ -11,6 +11,14 @@ route.get('/', (req, res) => {
     }
 });
 
+route.get("/login", (req, res) => {
+    try {
+        res.render('login')
+    } catch (error) {
+        console.log(error);
+    }
+})
+
 route.post('/submit', submitForm);
 
 module.exports = route;
